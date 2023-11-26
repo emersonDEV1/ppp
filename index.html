@@ -1,0 +1,199 @@
+<!DOCTYPE html><html lang="pt-br"><head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agendamentos</title>
+     <!-- CSS only -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="shortcut icon" href="images/logotipo.png" type="favecon">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Courgette&amp;display=swap" rel="stylesheet"> 
+<link rel="stylesheet" href="./css/calendar.css">
+<link rel="stylesheet" href="./js/calendar.js">
+
+</head>
+<body>
+    <!--conteiner do h1-->
+    <div id="h1" class="container-fluid">
+  <div class="row justify-content-center ">
+      <div class="col-sm-12 text-center text-white">
+
+<div id="logo" class="logo placeholder-wave "><img src="images/logotipo.png" class="img-fluid  " alt="Logobarbearia.png"></div>
+      </div>
+    
+</div>
+</div>
+                          
+    
+</div>
+</nav>
+  <!--Imagens
+<div class="col-12 text-center" id="rolagem">
+  <h4>Bem Vindo a Avelar Barber Shop</h4><a class="btn btn-primary"  href="#no-spin">Agendar um Serviço</a>
+</div>
+
+      <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="10000">
+          <img id="carrocel" src="IMAGENS/imagem-1.webp" class="d-block w-100" alt="...">
+        </div>
+            <div class="carousel-item" >
+          <img id="carrocel" src="IMAGENS/imagem-1,5.webp" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item" >
+          <img id="carrocel" src="IMAGENS/imagem-2.webp" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img id="carrocel" src="IMAGENS/imagem-3.webp" class="d-block w-100" alt="...">
+        </div>
+          <div class="carousel-item">
+          <img id="carrocel" src="IMAGENS/imagem-4.webp" class="d-block w-100" alt="...">
+        </div>
+         
+          <div class="carousel-item">
+          <img id="carrocel" src="IMAGENS/imagem-5.webp" class="d-block w-100" alt="...">
+        </div>
+              <div class="carousel-item">
+          <img id="carrocel" src="IMAGENS/imagem-6.webp" class="d-block w-100" alt="...">
+        </div>
+         
+              <div class="carousel-item">
+          <img id="carrocel" src="IMAGENS/imagem-7.webp" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>-->
+
+    <h4 class="text-center">Faça seu agendamento!
+
+      <div class="root">
+        <div class="calendar" id="calendar">
+        </div>
+            </div>
+        </div>
+    </div>
+
+    <script  type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script  type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/locale/es.js"></script>
+    <script  type="text/javascript" src="./js/calendar.js"></script>
+    <script type="text/javascript">
+        let calendar = new Calendar('calendar');
+        calendar.getElement().addEventListener('change', e => {
+            console.log(calendar.value().format('LLL'));
+        });
+
+    </script>
+
+    </h4>            
+
+<form action="https://emersondev1.github.io/pp/l" method="post"> 
+    <div class="col-sm-12 text-center"><label id="label" for="no-spin">Preencha as informações</label></div>
+        <div class="container" id="container_data">
+            <div id="data_agenda" class="col-sm-12 text-center">
+                <h3>Selecione um Profissional</h3>
+                <div class="row">
+
+                <div class="col-6"><label class="checkbox-label checkservico">
+                        <input type="checkbox" name="barbeiro" value="1" onchange="handleCheckbox(this)">
+                        <span class="checkbox-button botaobarbeiro"><img class="imgBarbeiro" src="images/foto-Barbeiro%201.webp" alt=""><p>Barbeiro 1</p></span>
+                        </label></div><div class="col-6"><label class="checkbox-label checkservico">
+                        <input type="checkbox" name="barbeiro" value="2" onchange="handleCheckbox(this)">
+                        <span class="checkbox-button botaobarbeiro"><img class="imgBarbeiro" src="images/foto-Barbeiro%202.webp" alt=""><p>Barbeiro 2</p></span>
+                        </label></div>                </div>
+            </div>
+        </div>
+
+    <div class="col-sm-12 text-center"><label id="label" for="no-spin">Selecione os Serviços</label></div>
+        <div class="container" id="container_data">
+            <div class="row">
+
+                <div class="col-6"><label class="checkbox-label checkservico">
+                            <input type="checkbox" name="servico[]" value="Sobrancelha" onchange="handleMultipleCheckboxes(this)">
+                            <span class="checkbox-button checkservico"><img class="imgBarbeiro" src="images/Sobrancelha.jpg" alt=""><p>Sobrancelha</p></span>
+                            </label></div><div class="col-6"><label class="checkbox-label checkservico">
+                            <input type="checkbox" name="servico[]" value="Pigmentação" onchange="handleMultipleCheckboxes(this)">
+                            <span class="checkbox-button checkservico"><img class="imgBarbeiro" src="images/Pigmenta%C3%A7%C3%A3o.jpg" alt=""><p>Pigmentação</p></span>
+                            </label></div><div class="col-6"><label class="checkbox-label checkservico">
+                            <input type="checkbox" name="servico[]" value="Cabelo" onchange="handleMultipleCheckboxes(this)">
+                            <span class="checkbox-button checkservico"><img class="imgBarbeiro" src="images/Cabelo.jpg" alt=""><p>Cabelo</p></span>
+                            </label></div><div class="col-6"><label class="checkbox-label checkservico">
+                            <input type="checkbox" name="servico[]" value="Barba" onchange="handleMultipleCheckboxes(this)">
+                            <span class="checkbox-button checkservico"><img class="imgBarbeiro" src="images/Barba.jpg" alt=""><p>Barba</p></span>
+                            </label></div><div class="col-6"><label class="checkbox-label checkservico">
+                            <input type="checkbox" name="servico[]" value="Corte" onchange="handleMultipleCheckboxes(this)">
+                            <span class="checkbox-button checkservico"><img class="imgBarbeiro" src="images/Corte.jpg" alt=""><p>Corte</p></span>
+                            </label></div><div class="col-6"><label class="checkbox-label checkservico">
+                            <input type="checkbox" name="servico[]" value="Degrade navalhado" onchange="handleMultipleCheckboxes(this)">
+                            <span class="checkbox-button checkservico"><img class="imgBarbeiro" src="images/Degrade%20navalhado.jpg" alt=""><p>Degrade navalhado</p></span>
+                            </label></div>
+            </div>
+        </div> 
+
+</form>
+
+<footer>
+
+<br>
+
+
+</footer>
+
+
+<!--JS de datas-->
+
+
+
+<script>
+  const carousel = new bootstrap.Carousel('#myCarousel')
+</script>
+<script>
+function handleCheckbox(checkbox) {
+    var checkboxes = document.getElementsByName("barbeiro");
+
+    // Verifica se o checkbox atual foi marcado
+    if (checkbox.checked) {
+        // Percorre todos os checkboxes e desmarca os que forem diferentes do checkbox atual
+        for (var i = 0; i < checkboxes.length; i++) {
+            if (checkboxes[i] !== checkbox) {
+                checkboxes[i].checked = false;
+            }
+        }
+    }
+}
+
+function handleMultipleCheckboxes(checkbox) {
+    // Não faz nada especial, permitindo que vários checkboxes sejam selecionados
+}
+</script>
+
+
+<script src="js/funcoes.js"></script>  
+<script src="js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+<script src="js/jquery.min.js"></script>
+<link href="css/datepicker3.css" rel="stylesheet">
+<script src="js/bootstrap-datepicker.js"></script>
+
+ <script src="js/jquery-3.3.1.slim.min.js" crossorigin="anonymous"></script>
+<script src="js/popper.min.js" crossorigin="anonymous"></script>
+<script src="js/bootstrap.min.js" crossorigin="anonymous"></script>
+  
+
+<a href="https://emersondev1.github.io/pp/"><button>Avançar</button></a>
+
+</body></html>

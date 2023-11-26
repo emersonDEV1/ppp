@@ -1,0 +1,578 @@
+body{
+    background-image: url(../images/bg_default.jpg);
+    background-size: 100%;
+    border:solid black;
+    font-size: 15px;
+    font-family: 'Gabriela', serif;
+    color: white;
+
+}
+
+h1{ 
+    color: #E7E7E7;
+    font-size: 1.4em;
+    font-family: 'Roboto', sans-serif;
+    height: 50px;
+}
+h2{
+    font-size:35px;
+    color:white;
+    font-family: 'Carnivalee Freakshow', sans-serif;
+}
+h3{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 18px;
+}
+h4{
+    font-family: 'Carnivalee Freakshow', sans-serif;
+    font-size:20px;
+    padding-top: 5px;
+    color: white;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+   text-align: center;
+    font-size: 0.8em;
+}
+#h1{
+    padding-top: 0px;
+    width: 100%;
+    background-image: url(../images/bg_default.jpg);
+    padding-bottom:40px;
+    background-size: 100%;
+    }
+    #logo{
+     margin: auto;
+    margin-bottom: 20px;
+    max-width: 250px;
+    animation: grow 0.3s ease-in-out;
+    }
+
+#banner{    
+margin: auto;
+max-width:300px;
+}
+
+.imgBarbeiro{
+    width: 120px;
+    border-radius:5px;
+}
+.caixaatrasbarbeiro{
+    border: none rgba(0, 0, 0, 0.325);
+    width:150px;
+    margin: auto;
+    margin-top: 15px;
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #3f3f3f;
+    
+}
+.caixaatrasbarbeiro:hover{
+background-color: #000000;
+}
+.checkservico{
+    width: 150px;
+    height: 170px;
+}
+#legenda_servico{
+font-size: 16px;
+
+}
+#legenda_servico:hover{
+   
+    color: white;
+    
+    }
+
+#barra{
+margin-top: 5px;
+}
+
+#menu{
+      background-image: linear-gradient(90deg, #000000, #000000, #000000);
+    text-decoration: none;
+    color: white;
+    margin-bottom: 25px;
+    
+}
+#rodape{
+    margin-top: 130px;
+    margin-bottom:0;
+}
+
+    #name{
+    margin: auto;
+    width: 200px;
+    
+    }
+    #no-spin{
+        text-align: center;
+        border-radius: 5px;
+        width: 200px;
+        height: 33.2px;
+        background-color: white;
+        color: rgb(61, 61, 61);   
+        margin-bottom: 10px;
+        }
+        #escolha{
+         margin-bottom: 0px;   
+        }
+      
+        
+
+        
+        input[type="date"]::-webkit-calendar-picker-indicator {
+        color: transparent;
+        background: none;
+        z-index: 1;
+        }
+        
+        input[type="date"]:before {
+        color: transparent;
+        background: none;
+        display: block;
+        font-family: 'FontAwesome';
+        content: '\f073';
+        width: 15px;
+        height: 20px;
+        position: absolute;
+        top: 7px;
+        right: 6px;
+
+        }
+        #barbeiro{
+            margin: auto;
+            width: 200px;
+            border-radius: 5px;
+          text-align: center;
+          margin-bottom: 10px;
+          height: 33.2px;
+
+
+          }
+#div{
+padding-right: 0;
+padding-left: 0;
+
+}
+table{
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    background-color: #000000;
+    font-size: 0.8em;
+}
+#div2{
+    padding-left: 8px;
+
+}
+
+#botão{
+    color: white;
+}
+#profissional{
+    margin: auto;
+    margin-top: 25px;
+    padding-bottom: 9px;
+    border-radius: 5px;
+       
+}
+#data{
+    background-color: #e0dbdb00;
+    border-radius: 5px;
+      margin-bottom: 5px;
+   
+    box-shadow: 1px 2px 2px #757575;
+    
+
+}
+
+
+
+#legenda3{
+margin-right: 20px;
+
+}
+#confirmar{
+    margin-bottom: 5px;
+}
+#nome{
+    margin-bottom: 10px;
+    margin: auto;
+    text-align: center;
+    width: 200px;
+    height: 33.2px;
+}
+
+
+#links{
+margin: auto;
+padding-bottom: 5px;
+
+}
+
+
+#servico{
+    border-radius: 5px;
+    margin: auto;
+    width: 200px;
+    text-align: center;
+    margin-bottom: 10px;
+    height: 33.2px;
+
+
+    }
+    #horario{
+      margin: auto;
+      width: 200px;
+      border-radius: 5px;
+    text-align: center;
+    margin-bottom: 10px;
+    height: 33.2px;
+    }
+    #telefone{
+      
+      margin: auto;
+      width: 200px;
+      border-radius: 5px;
+    text-align: center;
+    margin-bottom: 20px;
+
+    }
+    #carrocel{
+       max-width: 500px;
+       margin:auto;
+    }
+
+
+
+    #desmarcar{
+    color: black;
+    max-width: 50px;
+    float: right;
+    margin-right: 10%;
+
+    }
+    a{
+        color: white;
+        margin-top: 0;
+      padding-bottom: 20px;
+    }
+
+footer{
+    margin-top:5%;
+
+    background-image: linear-gradient(90deg, #000000, #000000, #000000);
+
+    
+  }
+  #dev{
+    color: white;
+  }
+  /*========================NOVO LAYOUT=================================*/
+.erro {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    
+   
+  }
+  
+  .modal-content {
+    background-color: #ffffff;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 400px;
+  }
+  
+  .close {
+    color: #020202;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #fc0000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .agendar{
+      background-color: #000000;
+      color: white;
+      margin-bottom: 15px;
+      border: none;
+  }
+  .agendar:hover{
+      background-color: white;
+      color: #000000;
+  }
+  #carrocel{
+      width: 350px;
+      margin: auto;
+  }
+  #no-spin{
+      text-align: center;
+      border-radius: 5px;
+      width: 250px;
+      height: 33.2px;
+      background-color: #9e9e9e;
+      color: rgb(255, 255, 255);
+        
+      margin-bottom: 10px;
+    
+      
+        padding-right: 30px; /* Adicione espaço à direita para acomodar o ícone */
+        background-image: url("../images/icone.png");
+        background-repeat: no-repeat;
+        background-position: right center;
+              
+      
+      }
+      #container_escolhidos{
+    background-color: #d6d6d6c4;
+     border-radius: 10px;
+    width:350px;
+    margin:auto;
+    font-size: 20px;
+    text-align: center;
+    color:white;
+    
+  }
+  #container_data{
+      border: 2px solid rgba(0, 0, 0, 0.849);
+            border-radius: 10px;
+            border-top-right-radius: 0;
+            border-top-left-radius: 0;
+            border-bottom-right-radius: 0;
+            margin: auto;
+            background-color: #1b1e22;
+            width:350px;
+             padding-top: 15px;
+            padding-bottom:30px;
+      
+  }
+  #outraData{
+      background-image: linear-gradient(90deg, #000000, #1d1d1d, #000000);
+     color:rgb(255, 255, 255);
+     font-size:16px;
+  }
+  #label{
+      font-size:18px;
+      background-image: linear-gradient(90deg, #000000, #3f3f3f, #000000);
+      width:350px;
+      border: 2px;
+      border-top-right-radius: 10px;
+        
+          border-top-left-radius: 0;
+          border-bottom-right-radius: 0;
+      color: rgb(255, 255, 255);
+      text-align: center;
+      margin:auto;
+      margin-top:25px;
+      margin-bottom:0;
+  }
+  #barbeiro{
+      background-color: #9e9e9e;
+      color: rgb(255, 255, 255);
+            border-radius: 5px;
+        margin: auto;
+        width: 250px;
+        text-align: center;
+        margin-bottom: 10px;
+        height: 33.2px;
+      }
+      #container_barbeiros{
+          border: 2px solid rgb(46, 46, 46);;
+              border-radius: 10px;
+              width:350px;
+              border-top-right-radius: 0;
+              border-top-left-radius: 0;
+              border-bottom-right-radius: 0;
+      
+          margin: auto;
+          background-color: rgb(46, 46, 46);;
+          padding-top: 15px;
+          padding-bottom: 15px
+      
+      }
+      #container_barbeiros_input{
+          border: 2px solid black;
+              border-radius: 10px;
+              border-top-right-radius: 0;
+              border-top-left-radius: 0;
+              border-bottom-right-radius: 0;
+          margin: auto;
+          background-color:rgb(221, 221, 221);;
+          width: 350px;
+          padding-top: 0;
+          padding-bottom: 15px
+      
+      }
+      #container_servico{
+          border: 2px solid rgba(216, 216, 216, 0.849);
+          border-radius: 10px;
+          border-top-right-radius: 0;
+          border-top-left-radius: 0;
+          border-bottom-right-radius: 0;
+          margin: auto;
+          background-color: rgba(216, 216, 216, 0.849);
+          width:350px;
+           padding-top: 15px;
+          padding-bottom:30px;
+      
+      }
+      #servico{
+          background-color: black;
+          color: white;
+            border-radius: 5px;
+            margin: auto;
+            margin-top:25px;
+            width: 250px;
+            text-align: center;
+            margin-bottom: 10px;
+            height: 33.2px;
+        
+        
+            }
+            #horario{
+              background-color: black;
+              color: white;
+              margin: auto;
+              width: 250px;
+              border-radius: 5px;
+            text-align: center;
+            margin-bottom: 10px;
+            height: 33.2px;
+            }
+            #telefone{
+              background-color: #9e9e9e;
+              color: rgb(255, 255, 255);
+                    border-radius: 5px;
+                margin: auto;
+                width: 250px;
+                text-align: center;
+                margin-bottom: 10px;
+                height: 33.2px;
+        
+            }
+            #nome{
+              background-color: #9e9e9e;
+      color: rgb(255, 255, 255);
+            border-radius: 5px;
+        margin: auto;
+        width: 250px;
+        text-align: center;
+        margin-bottom: 10px;
+        height: 33.2px;
+            }
+            #container_name_tel{
+        
+              border-radius: 10px;
+              border-top-right-radius: 0;
+              border-top-left-radius: 0;
+              border-bottom-right-radius: 0;
+              margin: auto;
+              margin-top:0;
+              margin-bottom:25px;
+              background-color: rgb(46, 46, 46);;
+              width:350px;
+              padding-top:25px;
+              padding-bottom: 15px;
+              color: white;
+             
+      }
+      h5{
+          font-size:25px;
+          font-family: 'Carnivalee Freakshow', sans-serif;
+          background-image: linear-gradient(90deg, #000000, #1d1d1d, #000000);
+          width:350px;
+          border: 2px;
+          border-top-right-radius: 10px;
+            
+              border-top-left-radius: 0;
+              border-bottom-right-radius: 0;
+          color: rgb(255, 255, 255);
+          text-align: center;
+          margin:auto;
+          margin-top:30px;
+      }
+      #button{
+        background-image: linear-gradient(90deg, #000000, #3f3f3f, #000000);
+           color: rgb(255, 255, 255);
+           border-radius: 5px;
+           margin-top:15px;
+           width: 350px;
+           border:none;
+           height:40px;
+           text-align: center;
+           display: flex;
+           align-items: center;
+           justify-content: space-around;
+        
+       
+     
+       }
+       #button:hover{
+           background-image: linear-gradient(90deg, white, white, white);
+           color:black;
+       }
+       #titulo{
+          font-size:25px;
+          font-family: 'Carnivalee Freakshow', sans-serif;
+          width:350px;
+          border: 2px;
+  
+          color: rgb(255, 255, 255);
+          text-align: center;
+          margin:auto;
+          margin-top:30px;
+       }
+       .checkbox-label {
+          margin:auto;
+        text-align: center;
+        display: inline-block;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        
+      }
+      
+      .checkbox-label input[type="checkbox"] {
+        display: none;
+      }
+      
+      .checkbox-button {
+        display: inline-block;
+        padding: 8px 16px;
+        background-color: transparent;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 18px;
+      }
+      .checkbox-button:hover{
+          background-color: #ffb900;;
+          color: white;
+      }
+      
+      .checkbox-label input[type="checkbox"]:checked + .checkbox-button {
+        background-color: #ffb900;
+        color: #fff;
+      }p
+      #footer_meus{
+          margin-top:200px;
+      }
+  
+  
+  /*========================NOVO LAYOUT=================================*/
+  
